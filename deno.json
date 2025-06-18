@@ -20,6 +20,7 @@
   "nodeModulesDir": "auto",
   "imports": {
     "@pakornv/fresh-plugin-tailwindcss": "jsr:@pakornv/fresh-plugin-tailwindcss@2.0.0-alpha.1",
+    "daisyui": "npm:daisyui@^5.0.43",
     "fresh": "jsr:@fresh/core@^2.0.0-alpha.34",
     "preact": "npm:preact@^10.26.6",
     "@preact/signals": "npm:@preact/signals@^2.0.4",

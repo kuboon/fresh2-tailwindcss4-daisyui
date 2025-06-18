@@ -1,11 +1,12 @@
 import { useSignal } from "@preact/signals";
 import { define } from "../utils.ts";
 import Counter from "../islands/Counter.tsx";
+import { ThemeController } from "../components/ThemeController.tsx";
 
 export default define.page(function Home() {
   const count = useSignal(3);
 
-  return (
+  return <>
     <div class="px-4 py-8 mx-auto fresh-gradient">
       <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
         <img
@@ -23,5 +24,6 @@ export default define.page(function Home() {
         <Counter count={count} />
       </div>
     </div>
-  );
+    <ThemeController />
+  </>;
 });

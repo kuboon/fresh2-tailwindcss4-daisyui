@@ -24,6 +24,7 @@
     "npm:@opentelemetry/api@^1.9.0": "1.9.0",
     "npm:@preact/signals@^2.0.4": "2.0.4_preact@10.26.6",
     "npm:@tailwindcss/postcss@^4.1.7": "4.1.7",
+    "npm:daisyui@^5.0.43": "5.0.43",
     "npm:esbuild-wasm@0.23.1": "0.23.1",
     "npm:esbuild@0.23.1": "0.23.1",
     "npm:postcss@^8.5.3": "8.5.3",
@@ -438,6 +439,9 @@
     "chownr@3.0.0": {
       "integrity": "sha512-+IxzY9BZOQd/XuYPRmrvEVjF/nqj5kgT4kEq7VofrDoM1MxoRjEWkrCC3EtLi59TVawxTAn+orJwFQcrqEN1+g=="
     },
+    "daisyui@5.0.43": {
+      "integrity": "sha512-2pshHJ73vetSpsbAyaOncGnNYL0mwvgseS1EWy1I9Qpw8D11OuBoDNIWrPIME4UFcq2xuff3A9x+eXbuFR9fUQ=="
+    },
     "detect-libc@2.0.4": {
       "integrity": "sha512-3UDv+G9CsCKO1WKMGw9fwq/SWJYbI0c5Y7LU1AXYoDdbhE2AHQ6N6Nb34sG8Fj7T5APy8qXDCKuuIHd1BR0tVA=="
     },
@@ -633,6 +637,7 @@
       "jsr:@fresh/core@^2.0.0-alpha.34",
       "jsr:@pakornv/fresh-plugin-tailwindcss@2.0.0-alpha.1",
       "npm:@preact/signals@^2.0.4",
+      "npm:daisyui@^5.0.43",
       "npm:preact@^10.26.6",
       "npm:tailwindcss@^4.1.7"
     ]
